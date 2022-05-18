@@ -53,3 +53,10 @@ img {
 .email-link:hover {
   text-decoration: underline;
 }
+.navbar-brand {
+  font-family: "Smooch", cursive;
+}
+.hero {
+  padding: 150px 15px;
+  background: #e7eaf6;
+}
