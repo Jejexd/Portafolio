@@ -11,9 +11,9 @@
 }
 
 .navigation-links a {
-  margin: 25px;
+  margin: 45px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 25px 20px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -51,9 +51,6 @@
 .hero {
   background: #e7eaf6;
 }
-img {
-  border-radius: 50%;
-}
 
 .flip-card {
   width: 100px;
@@ -61,6 +58,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 
 .flip-card-inner {
@@ -80,4 +78,14 @@ img {
 
 .flip-card-back {
   transform: rotateY(180deg);
+}
+.btn-branding-outline {
+  background-color: var(--primary-color);
+  margin: 40px;
+  border-radius: 4px;
+  padding: 25px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  border: 1px solid var(--primary-color);
 }
