@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
 :root {
   --primary-color: #7fa99b;
   --secondary-color: #fdc57b;
@@ -11,7 +15,7 @@
 }
 
 .navigation-links a {
-  margin: 45px;
+  margin: 30px;
   border-radius: 4px;
   padding: 25px 20px;
   text-decoration: none;
