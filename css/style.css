@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #7fa99b;
+  --secondary-color: #fdc57b;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -21,11 +21,11 @@
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: #212529;
 }
 
 .about-link {
-  color: var(--primary-color);
+  color: #212529;
   border: 1px solid var(--primary-color);
 }
 
@@ -49,43 +49,21 @@
   font-family: "Smooch", cursive;
 }
 .hero {
-  background: #e7eaf6;
+  background: #fbf2d5;
 }
 
-.flip-card {
-  width: 100px;
-  height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-}
-
-.flip-card-inner {
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-}
 .btn-branding-outline {
   background-color: var(--primary-color);
-  margin: 40px;
+  margin: 25px;
   border-radius: 4px;
-  padding: 25px 20px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   color: white;
   border: 1px solid var(--primary-color);
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
